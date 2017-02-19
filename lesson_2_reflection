@@ -7,18 +7,31 @@ What value do you think it offers?
 	
 	It's different because it offers a middle step between the final repository and	local
 	files (working directory), so it is like a third element and gives the oportunity
-	to choose wich files to be committed.
+	to choose wich files are ready to be committed.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	You can use the staging area for grouping files that correspond to the same changes, and
+	commit them at the same time.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	When it requires someone to contribute to the project, but don't want to broke the
+	main solution, so you can make a branch for a specific user.
+
 How do the diagrams help you visualize the branch structure?
+	
+	It's easy to track all checkpoints when you have a diagrams.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	The result is a new commit to master branch with all the changes that have been made in external branches.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Automatic merge saves development time, on the other hand if there is a code revision manually, 
+	some ambiguities can be solved on it.
