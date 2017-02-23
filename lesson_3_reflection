@@ -7,3 +7,25 @@ Why might you want to always pull changes manually rather than having Git automa
 
 	You probably want to check oout what changes have been made to a remote before pulling to your local
 	directory.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Fork - Clone a repository from GitHub to your own GitHub account
+	Clone - Gets a copy from a remote (GitHub) repository to your local directory
+	Branch - Makes a parallel version of master branch
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	To keep track of changes that have been made on the remote using git fetch, but not modifying
+	your local master branch.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	-Would be harder to take control of changes and who made those changes?
+	-A simple way to collaborate without Git or GitHub is to use Google Drive and share
+	folders to contribute.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	Maybe you want to add a new functionality that's not on initial plans, and maybe they won't be on final version.
+	So you test on a different branch.
